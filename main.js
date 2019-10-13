@@ -4,7 +4,7 @@ window.onload = function () {
     ctx = canv.getContext('2d');
     score = document.getElementById('score'); //Score of the game 
     document.addEventListener('keydown', keyPush); //added key control functions
-    setInterval(game, 1000/5); //run the game function in every 1000/5 ms interval
+    setInterval(game, 1000/10); //run the game function in every 1000/5 ms interval
 }
 
 //Defining defalut variables
